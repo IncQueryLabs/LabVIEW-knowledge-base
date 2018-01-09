@@ -1,2 +1,2 @@
-# labview-knowledge-base
-Know-how related to NI LabView
+# LabVIEW knowledge base
+Know-how related to NI LabVIEW
