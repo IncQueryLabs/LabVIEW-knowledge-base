@@ -1,0 +1,45 @@
+
+# **.NET_DLL-based_application_development**
+
+![Use cases](Picture\Use_cases.PNG)
+
+## **Main_motivation**
+* Fast compilation of DLL-based LV executables (in case of big projects)
+* Interoperability between programming languages
+* Packed library „dependency hell“
+  * Details: dependency conflict across CTF.lvlibp, simulations lvlibps and CORE.lvlibp --> runtime error in application!
+  * Sources
+    - http://labviewjournal.com/2011/10/packed-project-libraries-part-2
+    - https://lavag.org/topic/18065-nested-packed-libraries/#comment-108395
+
+## **LV usage issues**
+
+1.  Inheritance from .NET class is not possible --> CTSWPL core‘s „plugin“ interfaces not usable (limited workaround exists)
+
+2.  Parent class’ (public) methods not visible --> Code duplication of CTSWPL core’s in CTSWPL core API (workaround exists)
+
+3.  Can´t abort .NET calls externally --> Abort functionality (watchdogs) must be wrapped, e.g., in CTSWPL core API (limited workaround exists)
+
+4.  DLL call returns default values in case of exception --> Functional limitation in general (workaround exists)
+
+5.  Can´t export methods from packed library --> CTF member methods can’t be exported (limited workaround exists)
+
+6.  Other issues: constructor, non-primitive output types
+
+___
+## **VS_usage__Issues**
+
+1.  Inheritance from .NET class is not possible --> CTSWPL core‘s „plugin“ interfaces not usable (limited workaround exists) Works in VS but: Overwrite of .NET class member method is not possible --> Plugin implementation functionality is limited (limited workaround exists)
+NOTE: it’s an improvement compared to LV usage (inheritance can be handled)
+
+2.  Parent class’ (public) methods not visible --> Code duplication of CTSWPL core’s in CTSWPL core API (workaround exists) Works in VS
+
+3.  Can´t abort .NET calls externally --> Abort functionality (watchdogs) must be wrapped, e.g., in CTSWPL core API (limited workaround exists) Not tried but should work (watchdog thread etc.)
+
+4.  DLL call returns default values in case of exception --> Functional limitation in general (workaround exists) Should be the same in LV and VS, not fully tested in VS
+
+5.  Can´t export methods from packed library --> CTF member methods can’t be exported (limited workaround exists) Applies here as well
+
+6.  Other issues: constructor, non-primitive output types Applies here as well
+	New issue: array output types (only in VS 2015)
+___
