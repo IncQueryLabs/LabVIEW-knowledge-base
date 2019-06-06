@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TEST_SUITE ICovVersion="2.2.0.1" id="Thermal Chamber Controller_DQMH_Action Update Ramp Rate.instacov">
+
+  <TEST_CASES>
+    <TEST_CASE id="errorCase">
+      <COMMENT>Test comment</COMMENT>
+      <REQUIREMENT>Test requirement</REQUIREMENT>
+    </TEST_CASE>
+    <TEST_CASE id="RampRate30">
+      <COMMENT>Test comment</COMMENT>
+      <REQUIREMENT>Test requirement</REQUIREMENT>
+    </TEST_CASE>
+    <TEST_CASE id="RampRate10">
+      <COMMENT></COMMENT>
+      <REQUIREMENT></REQUIREMENT>
+    </TEST_CASE>
+  </TEST_CASES>
+
+  <HARNESS_PATH>Thermal Chamber Controller_DQMH_Action Update Ramp Rate-test_harness.vi</HARNESS_PATH>
+
+  <VI_UNDER_TEST_PATH>..\..\..\Libraries\Thermal Chamber Controller_DQMH\Action Update Ramp Rate.vi</VI_UNDER_TEST_PATH>
+
+</TEST_SUITE>

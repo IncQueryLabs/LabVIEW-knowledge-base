@@ -100,45 +100,28 @@
 			<Item Name="TestStand Thermal Chamber Controller Example With DUT.seq" Type="Document" URL="../TestStand/TestStand Thermal Chamber Controller Example With DUT.seq"/>
 			<Item Name="TestStand Thermal Chamber Controller Example With Multiple DUTs.seq" Type="Document" URL="../TestStand/TestStand Thermal Chamber Controller Example With Multiple DUTs.seq"/>
 		</Item>
-		<Item Name="Unit Tests" Type="Folder">
-			<Item Name="Thermal Chamber Controller_DQMH" Type="Folder">
-				<Item Name="Thermal Chamber Controller_DQMH setup.vi" Type="VI" URL="../Unit Tests/Thermal Chamber Controller_DQMH/Thermal Chamber Controller_DQMH setup.vi"/>
-				<Item Name="Thermal Chamber Controller_DQMH teardown.vi" Type="VI" URL="../Unit Tests/Thermal Chamber Controller_DQMH/Thermal Chamber Controller_DQMH teardown.vi"/>
-				<Item Name="Test - Thermal Chamber Controller_DQMH - Update Heater State 1.vi" Type="VI" URL="../Unit Tests/Thermal Chamber Controller_DQMH/Test - Thermal Chamber Controller_DQMH - Update Heater State 1.vi"/>
-				<Item Name="Test - Thermal Chamber Controller_DQMH - Update Set Point 1.vi" Type="VI" URL="../Unit Tests/Thermal Chamber Controller_DQMH/Test - Thermal Chamber Controller_DQMH - Update Set Point 1.vi"/>
-				<Item Name="Test - Thermal Chamber Controller_DQMH - Update Ramp Rate 1.vi" Type="VI" URL="../Unit Tests/Thermal Chamber Controller_DQMH/Test - Thermal Chamber Controller_DQMH - Update Ramp Rate 1.vi"/>
-				<Item Name="Test - Thermal Chamber Controller_DQMH - Update Heater State 1.lvtest" Type="TestItem" URL="../Unit Tests/Thermal Chamber Controller_DQMH/Test - Thermal Chamber Controller_DQMH - Update Heater State 1.lvtest">
-					<Property Name="utf.test.bind" Type="Str">Test - Thermal Chamber Controller_DQMH - Update Heater State 1.vi</Property>
-					<Property Name="utf.vector.test.bind" Type="Str">C1711AFC-3587-3204-CC78-BDB404344608</Property>
-				</Item>
-				<Item Name="Test - Thermal Chamber Controller_DQMH - Update Set Point 1.lvtest" Type="TestItem" URL="../Unit Tests/Thermal Chamber Controller_DQMH/Test - Thermal Chamber Controller_DQMH - Update Set Point 1.lvtest">
-					<Property Name="utf.test.bind" Type="Str">Test - Thermal Chamber Controller_DQMH - Update Set Point 1.vi</Property>
-					<Property Name="utf.vector.test.bind" Type="Str">0865E404-1F3C-A6FC-89B1-BAA396EC13BE</Property>
-				</Item>
-				<Item Name="Test - Thermal Chamber Controller_DQMH - Update Ramp Rate 1.lvtest" Type="TestItem" URL="../Unit Tests/Thermal Chamber Controller_DQMH/Test - Thermal Chamber Controller_DQMH - Update Ramp Rate 1.lvtest">
-					<Property Name="utf.test.bind" Type="Str">Test - Thermal Chamber Controller_DQMH - Update Ramp Rate 1.vi</Property>
-					<Property Name="utf.vector.test.bind" Type="Str">CDA5DBEE-373B-FFA4-5456-58A0B85F3DCC</Property>
-				</Item>
-			</Item>
-		</Item>
 		<Item Name="InstaCoverage unit tests" Type="Folder">
-			<Item Name="Test - Thermal Chamber Controller_DQMH - Update Heater State 1" Type="Folder">
-				<Item Name="Test - Thermal Chamber Controller_DQMH - Update Heater State 1-setup.vi" Type="VI" URL="../Unit Tests/Thermal Chamber Controller_DQMH/Test - Thermal Chamber Controller_DQMH - Update Heater State 1-setup.vi"/>
-				<Item Name="Test - Thermal Chamber Controller_DQMH - Update Heater State 1-teardown.vi" Type="VI" URL="../Unit Tests/Thermal Chamber Controller_DQMH/Test - Thermal Chamber Controller_DQMH - Update Heater State 1-teardown.vi"/>
-				<Item Name="Test - Thermal Chamber Controller_DQMH - Update Heater State 1-test_harness.vi" Type="VI" URL="../Unit Tests/Thermal Chamber Controller_DQMH/Test - Thermal Chamber Controller_DQMH - Update Heater State 1-test_harness.vi"/>
-				<Item Name="Test - Thermal Chamber Controller_DQMH - Update Heater State 1.instacov" Type="Document" URL="../Unit Tests/Thermal Chamber Controller_DQMH/Test - Thermal Chamber Controller_DQMH - Update Heater State 1.instacov"/>
+			<Item Name="Action Update Ramp Rate" Type="Folder" URL="../Unit Tests/InstaCoverage/Action Update Ramp Rate">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Test - Thermal Chamber Controller_DQMH - Update Set Point 1" Type="Folder">
-				<Item Name="Test - Thermal Chamber Controller_DQMH - Update Set Point 1-setup.vi" Type="VI" URL="../Unit Tests/Thermal Chamber Controller_DQMH/Test - Thermal Chamber Controller_DQMH - Update Set Point 1-setup.vi"/>
-				<Item Name="Test - Thermal Chamber Controller_DQMH - Update Set Point 1-teardown.vi" Type="VI" URL="../Unit Tests/Thermal Chamber Controller_DQMH/Test - Thermal Chamber Controller_DQMH - Update Set Point 1-teardown.vi"/>
-				<Item Name="Test - Thermal Chamber Controller_DQMH - Update Set Point 1-test_harness.vi" Type="VI" URL="../Unit Tests/Thermal Chamber Controller_DQMH/Test - Thermal Chamber Controller_DQMH - Update Set Point 1-test_harness.vi"/>
-				<Item Name="Test - Thermal Chamber Controller_DQMH - Update Set Point 1.instacov" Type="Document" URL="../Unit Tests/Thermal Chamber Controller_DQMH/Test - Thermal Chamber Controller_DQMH - Update Set Point 1.instacov"/>
+			<Item Name="Action Update Heater State" Type="Folder" URL="../Unit Tests/InstaCoverage/Action Update Heater State">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Test - Thermal Chamber Controller_DQMH - Update Ramp Rate 1" Type="Folder">
-				<Item Name="Test - Thermal Chamber Controller_DQMH - Update Ramp Rate 1-setup.vi" Type="VI" URL="../Unit Tests/Thermal Chamber Controller_DQMH/Test - Thermal Chamber Controller_DQMH - Update Ramp Rate 1-setup.vi"/>
-				<Item Name="Test - Thermal Chamber Controller_DQMH - Update Ramp Rate 1-teardown.vi" Type="VI" URL="../Unit Tests/Thermal Chamber Controller_DQMH/Test - Thermal Chamber Controller_DQMH - Update Ramp Rate 1-teardown.vi"/>
-				<Item Name="Test - Thermal Chamber Controller_DQMH - Update Ramp Rate 1-test_harness.vi" Type="VI" URL="../Unit Tests/Thermal Chamber Controller_DQMH/Test - Thermal Chamber Controller_DQMH - Update Ramp Rate 1-test_harness.vi"/>
-				<Item Name="Test - Thermal Chamber Controller_DQMH - Update Ramp Rate 1.instacov" Type="Document" URL="../Unit Tests/Thermal Chamber Controller_DQMH/Test - Thermal Chamber Controller_DQMH - Update Ramp Rate 1.instacov"/>
+			<Item Name="Action Update Set Point" Type="Folder" URL="../Unit Tests/InstaCoverage/Action Update Set Point">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
+			<Item Name="QueueAddTestCaseID.vi" Type="VI" URL="../Unit Tests/UTF/QueueAddTestCaseID.vi"/>
+			<Item Name="QueueGetTestCaseID.vi" Type="VI" URL="../Unit Tests/UTF/QueueGetTestCaseID.vi"/>
+		</Item>
+		<Item Name="UTF unit tests" Type="Folder">
+			<Item Name="Action Update Heater State" Type="Folder" URL="../Unit Tests/UTF/Action Update Heater State">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Action Update Set Point" Type="Folder" URL="../Unit Tests/UTF/Action Update Set Point">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Action Update Ramp Rate" Type="Folder" URL="../Unit Tests/UTF/Action Update Ramp Rate">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Thermal Chamber Controller.vi" Type="VI" URL="../Thermal Chamber Controller.vi"/>
@@ -310,6 +293,8 @@
 			<Item Name="Item_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Item_Interface.ctl"/>
 			<Item Name="provcom_CheckExtension.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_CheckExtension.vi"/>
 			<Item Name="mxLvSetPopupMenu.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetPopupMenu.vi"/>
+			<Item Name="Test - Thermal Chamber Controller_DQMH - Update Heater State 1-setup.vi" Type="VI" URL="../Unit Tests/InstaCoverage/Test - Thermal Chamber Controller_DQMH - Update Heater State 1-setup.vi"/>
+			<Item Name="Test - Thermal Chamber Controller_DQMH - Update Heater State 1-teardown.vi" Type="VI" URL="../Unit Tests/InstaCoverage/Test - Thermal Chamber Controller_DQMH - Update Heater State 1-teardown.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

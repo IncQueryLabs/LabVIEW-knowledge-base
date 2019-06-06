@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="15008000">
-	<Property Name="NI.Lib.Icon" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*)!!!*Q(C=\&gt;5^&lt;NN!%)&lt;B,Y',A*VO9,"U/V@A&amp;81%DS^AA+V+8=!QJH7J![42#11-E"0I!'\5O;:@LM?U912WCC1)!C_V%P8NX_-F25ON@*0/.(V5OH&gt;,[U'@K7MH5TNN&gt;6L3;O_?4[;HNF@NUZ*6V_=Z@TK_KY&amp;PWB&gt;)VX5PJF`QPVPU74\,`VUW(`Y)`PDPY)PG"R%VK5&amp;VKGF?&gt;ELS*%`S*%`S*!`S)!`S)!`S)(&gt;S*X&gt;S*X&gt;S*T&gt;S)T&gt;S)T&gt;S)W](O=B&amp;,H*)S?,*1MGES12*:SB+XB*0YEE]C9?P3DS**`%EHM2$&amp;S7?R*.Y%E`C9:A34_**0)EH]4"6EW1\S0%E(K:8Y!E]A3@Q""[76/!*!-&amp;CQ=4"*$!5.!9HA3@Q""Z/&amp;8A#4_!*0)'(:A7?Q".Y!E`A95D&lt;F7C;_3$(QT2S0)\(]4A?R]05=DS/R`%Y(M@$=H)]DM&gt;"/!M[EU/1-]DJY(RR0)[($TE?R_.Y()`DI;F&gt;)7]\-WPGARS0Y4%]BM@Q'"[GE/%R0)&lt;(]"A?JJ8B-4S'R`!9(J;3Y4%]BM?!')OSP)T*D)&amp;'*S-Q0,T;X7,N+E747$OEOHF6.[8K:F0&gt;2+K&lt;1X8262&gt;4&gt;:&amp;5G[`;6.6GK4:"^=?JU#K-;B(6Y,GD4LQ@K8PKDLKFDN1V&gt;;$WV.5]^$&gt;X0*V//B[0WO`XWOVWWG[X'M&gt;2[`6;QT#I\XON6KPF-8$/M4Q1HJZ,']\PR`\S-(S``(&amp;V=8-9\BY/VX?X=`Y8`D``!]^'@&gt;8L.&gt;CD2[M`7X-!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
+<Library LVVersion="18008000">
+	<Property Name="NI.Lib.Icon" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*)!!!*Q(C=\&gt;5^&lt;NN!%)&lt;B,Y',A*VO9,"U/V@A&amp;81%DS^AA+V+8=!QJH7J![42#11-E"0I!'\5O;:@LM?U912WCC1)!C_V%P8NX_-F25ON@*0/.(V5OH&gt;,[U'@K7MH5TNN&gt;6L3;O_?4[;HNF@NUZ*6V_=Z@TK_KY&amp;PWB&gt;)VX5PJF`QPVPU74\,`VUW(`Y)`PDPY)PG"R%VK5&amp;VKGF?&gt;ELS*%`S*%`S*!`S)!`S)!`S)(&gt;S*X&gt;S*X&gt;S*T&gt;S)T&gt;S)T&gt;S)W](O=B&amp;,H*)S?,*1MGES12*:SB+XB*0YEE]C9?P3DS**`%EHM2$&amp;S7?R*.Y%E`C9:A34_**0)EH]4"6EW1\S0%E(K:8Y!E]A3@Q""[76/!*!-&amp;CQ=4"*$!5.!9HA3@Q""Z/&amp;8A#4_!*0)'(:A7?Q".Y!E`A95D&lt;F7C;_3$(QT2S0)\(]4A?R]05=DS/R`%Y(M@$=H)]DM&gt;"/!M[EU/1-]DJY(RR0)[($TE?R_.Y()`DI;F&gt;)7]\-WPGARS0Y4%]BM@Q'"[GE/%R0)&lt;(]"A?JJ8B-4S'R`!9(J;3Y4%]BM?!')OSP)T*D)&amp;'*S-Q0,T;X7,N+E747$OEOHF6.[8K:F0&gt;2+K&lt;1X8262&gt;4&gt;:&amp;5G[`;6.6GK4:"^=?JU#K-;B(6Y,GD4LQ@K8PKDLKFDN1V&gt;;$WV.5]^$&gt;X0*V//B[0WO`XWOVWWG[X'M&gt;2[`6;QT#I\XON6KPF-8$/M4Q1HJZ,']\PR`\S-(S``(&amp;V=8-9\BY/VX?X=`Y8`D``!]^'@&gt;8L.&gt;CD2[M`7X-!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
@@ -104,4 +104,8 @@
 	<Item Name="Action Update Heater State.vi" Type="VI" URL="../Action Update Heater State.vi"/>
 	<Item Name="Action Update Set Point.vi" Type="VI" URL="../Action Update Set Point.vi"/>
 	<Item Name="Action Update Ramp Rate.vi" Type="VI" URL="../Action Update Ramp Rate.vi"/>
+	<Item Name="Action Update Heater State.lvtest" Type="TestItem" URL="../Action Update Heater State.lvtest">
+		<Property Name="utf.test.bind" Type="Str">Thermal Chamber Controller_DQMH.lvlib:Action Update Heater State.vi</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">73BD5087-B921-3BA8-B08A-5E8E0C45668F</Property>
+	</Item>
 </Library>
