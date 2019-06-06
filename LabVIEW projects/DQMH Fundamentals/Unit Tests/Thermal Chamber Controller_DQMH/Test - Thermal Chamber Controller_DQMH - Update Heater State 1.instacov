@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<TEST_SUITE ICovVersion="2.0.0.1" id="Test - Thermal Chamber Controller_DQMH - Update Heater State 1.instacov">
+<TEST_SUITE ICovVersion="2.2.0.1" id="Test - Thermal Chamber Controller_DQMH - Update Heater State 1.instacov">
 
   <TEST_CASES>
     <TEST_CASE id="Enable Heater">
