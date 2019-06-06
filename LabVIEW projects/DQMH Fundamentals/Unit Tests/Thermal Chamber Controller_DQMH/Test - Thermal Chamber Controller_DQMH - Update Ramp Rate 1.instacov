@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TEST_SUITE ICovVersion="2.0.0.1" id="Test - Thermal Chamber Controller_DQMH - Update Ramp Rate 1.instacov">
+
+  <TEST_CASES>
+    <TEST_CASE id="Set Ramp Rate to 5">
+      <COMMENT>This tests case verifies, if changing the temperature ramp rate to 5 works as intended.</COMMENT>
+      <REQUIREMENT>The action should run without error and return the ramp rate we gave as input.</REQUIREMENT>
+    </TEST_CASE>
+    <TEST_CASE id="Set Ramp Rate to 2">
+      <COMMENT>This tests case verifies, if changing the temperature ramp rate to 2 works as intended.</COMMENT>
+      <REQUIREMENT>The action should run without error and return the ramp rate we gave as input.</REQUIREMENT>
+    </TEST_CASE>
+  </TEST_CASES>
+
+  <HARNESS_PATH>Test - Thermal Chamber Controller_DQMH - Update Ramp Rate 1-test_harness.vi</HARNESS_PATH>
+
+  <VI_UNDER_TEST_PATH>..\..\Libraries\Thermal Chamber Controller_DQMH\Action Update Ramp Rate.vi</VI_UNDER_TEST_PATH>
+
+</TEST_SUITE>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TEST_SUITE ICovVersion="2.0.0.1" id="Test - Thermal Chamber Controller_DQMH - Update Heater State 1.instacov">
+
+  <TEST_CASES>
+    <TEST_CASE id="Enable Heater">
+      <COMMENT>This tests case verifies, if enabling the heater works as intended.</COMMENT>
+      <REQUIREMENT>The action should run without error and return the heater state we gave as input.</REQUIREMENT>
+    </TEST_CASE>
+    <TEST_CASE id="Disable Heater">
+      <COMMENT>This tests case verifies, if disabling the heater works as intended.</COMMENT>
+      <REQUIREMENT>The action should run without error and return the heater state we gave as input.</REQUIREMENT>
+    </TEST_CASE>
+  </TEST_CASES>
+
+  <HARNESS_PATH>Test - Thermal Chamber Controller_DQMH - Update Heater State 1-test_harness.vi</HARNESS_PATH>
+
+  <VI_UNDER_TEST_PATH>..\..\Libraries\Thermal Chamber Controller_DQMH\Action Update Heater State.vi</VI_UNDER_TEST_PATH>
+
+</TEST_SUITE>

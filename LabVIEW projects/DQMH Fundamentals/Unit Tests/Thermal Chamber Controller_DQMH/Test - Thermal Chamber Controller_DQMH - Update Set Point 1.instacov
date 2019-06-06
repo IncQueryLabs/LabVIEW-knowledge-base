@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TEST_SUITE ICovVersion="2.0.0.1" id="Test - Thermal Chamber Controller_DQMH - Update Set Point 1.instacov">
+
+  <TEST_CASES>
+    <TEST_CASE id="Change Set Point to 20 Degrees">
+      <COMMENT>This tests case verifies, if changing the temperature set point to 20 degrees works as intended.</COMMENT>
+      <REQUIREMENT>The action should run without error and return the set point we gave as input.</REQUIREMENT>
+    </TEST_CASE>
+    <TEST_CASE id="Change Set Point to 40 Degrees">
+      <COMMENT>This tests case verifies, if changing the temperature set point to 40 degrees works as intended.</COMMENT>
+      <REQUIREMENT>The action should run without error and return the set point we gave as input.</REQUIREMENT>
+    </TEST_CASE>
+  </TEST_CASES>
+
+  <HARNESS_PATH>Test - Thermal Chamber Controller_DQMH - Update Set Point 1-test_harness.vi</HARNESS_PATH>
+
+  <VI_UNDER_TEST_PATH>..\..\Libraries\Thermal Chamber Controller_DQMH\Action Update Set Point.vi</VI_UNDER_TEST_PATH>
+
+</TEST_SUITE>
