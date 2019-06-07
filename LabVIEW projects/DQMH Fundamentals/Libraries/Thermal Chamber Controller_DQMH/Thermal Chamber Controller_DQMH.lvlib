@@ -104,8 +104,4 @@
 	<Item Name="Action Update Heater State.vi" Type="VI" URL="../Action Update Heater State.vi"/>
 	<Item Name="Action Update Set Point.vi" Type="VI" URL="../Action Update Set Point.vi"/>
 	<Item Name="Action Update Ramp Rate.vi" Type="VI" URL="../Action Update Ramp Rate.vi"/>
-	<Item Name="Action Update Heater State.lvtest" Type="TestItem" URL="../Action Update Heater State.lvtest">
-		<Property Name="utf.test.bind" Type="Str">Thermal Chamber Controller_DQMH.lvlib:Action Update Heater State.vi</Property>
-		<Property Name="utf.vector.test.bind" Type="Str">73BD5087-B921-3BA8-B08A-5E8E0C45668F</Property>
-	</Item>
 </Library>
