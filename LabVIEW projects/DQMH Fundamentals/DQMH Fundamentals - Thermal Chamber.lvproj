@@ -139,10 +139,16 @@
 			</Item>
 			<Item Name="Test All.vi" Type="VI" URL="../../../../../Program Files/National Instruments/LabVIEW 2018/examples/JKI/Caraya/integer dictionary/Tests/Test All.vi"/>
 		</Item>
+		<Item Name="Time Measurement" Type="Folder">
+			<Item Name="UTF Time Measurement.vi" Type="VI" URL="../Time Measurement/UTF Time Measurement.vi"/>
+			<Item Name="InstaCoverage Time Measurement.vi" Type="VI" URL="../Time Measurement/InstaCoverage Time Measurement.vi"/>
+			<Item Name="Vi Tester Time Measurement.vi" Type="VI" URL="../Time Measurement/Vi Tester Time Measurement.vi"/>
+			<Item Name="Caraya Time Measurement.vi" Type="VI" URL="../Time Measurement/Caraya Time Measurement.vi"/>
+			<Item Name="Test Time Measurement.vi" Type="VI" URL="../Time Measurement/Test Time Measurement.vi"/>
+		</Item>
 		<Item Name="Thermal Chamber Controller.vi" Type="VI" URL="../Thermal Chamber Controller.vi"/>
 		<Item Name="Thermal Chamber Controller with DUT.vi" Type="VI" URL="../Thermal Chamber Controller with DUT.vi"/>
 		<Item Name="Thermal Chamber Controller with Multiple DUTs.vi" Type="VI" URL="../Thermal Chamber Controller with Multiple DUTs.vi"/>
-		<Item Name="Test Time Measurement.vi" Type="VI" URL="../Test Time Measurement.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -856,8 +862,10 @@
 				<Item Name="File Exists - Scalar__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/File Exists - Scalar__ogtk__jki_vi_tester.vi"/>
 				<Item Name="File Exists - Array__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/File Exists - Array__ogtk__jki_vi_tester.vi"/>
 				<Item Name="File Exists__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/File Exists__ogtk__jki_vi_tester.vi"/>
+				<Item Name="Sort 2D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 2D Array.vim"/>
+				<Item Name="Sort 2D Array - Pop Stack.vi" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 2D Array - Pop Stack.vi"/>
+				<Item Name="Sort 2D Array - Push Stack.vi" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 2D Array - Push Stack.vi"/>
 			</Item>
-			<Item Name="InstaCoverage.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/InstaCoverage/InstaCoverage.lvlib"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -884,6 +892,8 @@
 			<Item Name="Item_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Item_Interface.ctl"/>
 			<Item Name="provcom_CheckExtension.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_CheckExtension.vi"/>
 			<Item Name="mxLvSetPopupMenu.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetPopupMenu.vi"/>
+			<Item Name="InstaCoverageCore.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/InstaCoverage/Core/InstaCoverageCore.lvlib"/>
+			<Item Name="InstaCoveragePro.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/InstaCoverage/Pro/InstaCoveragePro.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
