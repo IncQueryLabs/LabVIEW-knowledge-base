@@ -137,7 +137,7 @@
 			<Item Name="Action Update Set Point" Type="Folder" URL="../Unit Tests/Caraya/Action Update Set Point">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Test All.vi" Type="VI" URL="../../../../../Program Files/National Instruments/LabVIEW 2018/examples/JKI/Caraya/integer dictionary/Tests/Test All.vi"/>
+			<Item Name="TestAll.vi" Type="VI" URL="../Unit Tests/Caraya/TestAll.vi"/>
 		</Item>
 		<Item Name="Time Measurement" Type="Folder">
 			<Item Name="UTF Time Measurement.vi" Type="VI" URL="../Time Measurement/UTF Time Measurement.vi"/>
@@ -862,9 +862,17 @@
 				<Item Name="File Exists - Scalar__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/File Exists - Scalar__ogtk__jki_vi_tester.vi"/>
 				<Item Name="File Exists - Array__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/File Exists - Array__ogtk__jki_vi_tester.vi"/>
 				<Item Name="File Exists__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/File Exists__ogtk__jki_vi_tester.vi"/>
-				<Item Name="Sort 2D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 2D Array.vim"/>
-				<Item Name="Sort 2D Array - Pop Stack.vi" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 2D Array - Pop Stack.vi"/>
-				<Item Name="Sort 2D Array - Push Stack.vi" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 2D Array - Push Stack.vi"/>
+				<Item Name="Delacor_lib_QMH_Module Admin.ctl" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Module Admin_class/Delacor_lib_QMH_Module Admin.lvclass/Delacor_lib_QMH_Module Admin.ctl"/>
+				<Item Name="Delacor_lib_QMH_Get External Launch.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Module Admin_class/Delacor_lib_QMH_Get External Launch.vi"/>
+				<Item Name="Delacor_lib_QMH_Create Message Queue.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Message Queue_class/Delacor_lib_QMH_Create Message Queue.vi"/>
+				<Item Name="Delacor_lib_QMH_Enqueue Message (poly).vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Message Queue_class/Delacor_lib_QMH_Enqueue Message (poly).vi"/>
+				<Item Name="Delacor_lib_QMH_Enqueue Message (Single).vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Message Queue_class/Delacor_lib_QMH_Enqueue Message (Single).vi"/>
+				<Item Name="Delacor_lib_QMH_Set External Launch.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Module Admin_class/Delacor_lib_QMH_Set External Launch.vi"/>
+				<Item Name="Delacor_lib_QMH_Cloneable Module Admin.ctl" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Cloneable Module Admin_class/Delacor_lib_QMH_Cloneable Module Admin.lvclass/Delacor_lib_QMH_Cloneable Module Admin.ctl"/>
+				<Item Name="Delacor_lib_QMH_Set Module ID.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Cloneable Module Admin_class/Delacor_lib_QMH_Set Module ID.vi"/>
+				<Item Name="Delacor_lib_QMH_Get Module ID.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Cloneable Module Admin_class/Delacor_lib_QMH_Get Module ID.vi"/>
+				<Item Name="Delacor_lib_QMH_Set First.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Cloneable Module Admin_class/Delacor_lib_QMH_Set First.vi"/>
+				<Item Name="Delacor_lib_QMH_Get First.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Cloneable Module Admin_class/Delacor_lib_QMH_Get First.vi"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -892,8 +900,7 @@
 			<Item Name="Item_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Item_Interface.ctl"/>
 			<Item Name="provcom_CheckExtension.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_CheckExtension.vi"/>
 			<Item Name="mxLvSetPopupMenu.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetPopupMenu.vi"/>
-			<Item Name="InstaCoverageCore.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/InstaCoverage/Core/InstaCoverageCore.lvlib"/>
-			<Item Name="InstaCoveragePro.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/InstaCoverage/Pro/InstaCoveragePro.lvlib"/>
+			<Item Name="InstaCoverage.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/InstaCoverage/InstaCoverage.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
