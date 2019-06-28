@@ -124,8 +124,8 @@
 			<Item Name="QueueAddTestCaseID.vi" Type="VI" URL="../Unit Tests/UTF/QueueAddTestCaseID.vi"/>
 			<Item Name="QueueGetTestCaseID.vi" Type="VI" URL="../Unit Tests/UTF/QueueGetTestCaseID.vi"/>
 		</Item>
-		<Item Name="TestCases" Type="Folder" URL="../Unit Tests/VI-Tester/TestCases">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="VI Tester unit tests" Type="Folder">
+			<Item Name="AllComponentTestes.lvclass" Type="LVClass" URL="../Unit Tests/VI-Tester/TestCases/AllComponentTestes.lvclass"/>
 		</Item>
 		<Item Name="Caraya unit tests" Type="Folder">
 			<Item Name="Action Update Heater State" Type="Folder" URL="../Unit Tests/Caraya/Action Update Heater State">
@@ -142,7 +142,7 @@
 		<Item Name="Time Measurement" Type="Folder">
 			<Item Name="UTF Time Measurement.vi" Type="VI" URL="../Time Measurement/UTF Time Measurement.vi"/>
 			<Item Name="InstaCoverage Time Measurement.vi" Type="VI" URL="../Time Measurement/InstaCoverage Time Measurement.vi"/>
-			<Item Name="Vi Tester Time Measurement.vi" Type="VI" URL="../Time Measurement/Vi Tester Time Measurement.vi"/>
+			<Item Name="VI Tester Time Measurement.vi" Type="VI" URL="../Time Measurement/VI Tester Time Measurement.vi"/>
 			<Item Name="Caraya Time Measurement.vi" Type="VI" URL="../Time Measurement/Caraya Time Measurement.vi"/>
 			<Item Name="Test Time Measurement.vi" Type="VI" URL="../Time Measurement/Test Time Measurement.vi"/>
 		</Item>
