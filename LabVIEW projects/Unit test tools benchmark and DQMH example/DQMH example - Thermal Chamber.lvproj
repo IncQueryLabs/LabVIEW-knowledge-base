@@ -125,7 +125,9 @@
 			<Item Name="QueueGetTestCaseID.vi" Type="VI" URL="../Unit Tests/UTF/QueueGetTestCaseID.vi"/>
 		</Item>
 		<Item Name="VI Tester unit tests" Type="Folder">
-			<Item Name="AllComponentTestes.lvclass" Type="LVClass" URL="../Unit Tests/VI-Tester/TestCases/AllComponentTestes.lvclass"/>
+			<Item Name="Action Update Set Point.lvclass" Type="LVClass" URL="../Unit Tests/VI-Tester/Action Update Set Point/Action Update Set Point.lvclass"/>
+			<Item Name="Action Update Heater State.lvclass" Type="LVClass" URL="../Unit Tests/VI-Tester/Action Update Heater State/Action Update Heater State.lvclass"/>
+			<Item Name="Action Update Ramp Rate.lvclass" Type="LVClass" URL="../Unit Tests/VI-Tester/Action Update Ramp Rate/Action Update Ramp Rate.lvclass"/>
 		</Item>
 		<Item Name="Caraya unit tests" Type="Folder">
 			<Item Name="Action Update Heater State" Type="Folder" URL="../Unit Tests/Caraya/Action Update Heater State">
