@@ -101,25 +101,49 @@
 			<Item Name="TestStand Thermal Chamber Controller Example With Multiple DUTs.seq" Type="Document" URL="../TestStand/TestStand Thermal Chamber Controller Example With Multiple DUTs.seq"/>
 		</Item>
 		<Item Name="InstaCoverage unit tests" Type="Folder">
-			<Item Name="Action Update Ramp Rate" Type="Folder" URL="../Unit Tests/InstaCoverage/Action Update Ramp Rate">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
+			<Item Name="Action Update Ramp Rate" Type="Folder">
+				<Item Name="Thermal Chamber Controller_DQMH_Action Update Ramp Rate-setup.vi" Type="VI" URL="../Unit Tests/InstaCoverage/Action Update Ramp Rate/Thermal Chamber Controller_DQMH_Action Update Ramp Rate-setup.vi"/>
+				<Item Name="Thermal Chamber Controller_DQMH_Action Update Ramp Rate-teardown.vi" Type="VI" URL="../Unit Tests/InstaCoverage/Action Update Ramp Rate/Thermal Chamber Controller_DQMH_Action Update Ramp Rate-teardown.vi"/>
+				<Item Name="Thermal Chamber Controller_DQMH_Action Update Ramp Rate-test_harness.vi" Type="VI" URL="../Unit Tests/InstaCoverage/Action Update Ramp Rate/Thermal Chamber Controller_DQMH_Action Update Ramp Rate-test_harness.vi"/>
+				<Item Name="Thermal Chamber Controller_DQMH_Action Update Ramp Rate.instacov" Type="Document" URL="../Unit Tests/InstaCoverage/Action Update Ramp Rate/Thermal Chamber Controller_DQMH_Action Update Ramp Rate.instacov"/>
 			</Item>
-			<Item Name="Action Update Heater State" Type="Folder" URL="../Unit Tests/InstaCoverage/Action Update Heater State">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
+			<Item Name="Action Update Heater State" Type="Folder">
+				<Item Name="Thermal Chamber Controller_DQMH_Action Update Heater State-setup.vi" Type="VI" URL="../Unit Tests/InstaCoverage/Action Update Heater State/Thermal Chamber Controller_DQMH_Action Update Heater State-setup.vi"/>
+				<Item Name="Thermal Chamber Controller_DQMH_Action Update Heater State-teardown.vi" Type="VI" URL="../Unit Tests/InstaCoverage/Action Update Heater State/Thermal Chamber Controller_DQMH_Action Update Heater State-teardown.vi"/>
+				<Item Name="Thermal Chamber Controller_DQMH_Action Update Heater State-test_harness.vi" Type="VI" URL="../Unit Tests/InstaCoverage/Action Update Heater State/Thermal Chamber Controller_DQMH_Action Update Heater State-test_harness.vi"/>
+				<Item Name="Thermal Chamber Controller_DQMH_Action Update Heater State.instacov" Type="Document" URL="../Unit Tests/InstaCoverage/Action Update Heater State/Thermal Chamber Controller_DQMH_Action Update Heater State.instacov"/>
 			</Item>
-			<Item Name="Action Update Set Point" Type="Folder" URL="../Unit Tests/InstaCoverage/Action Update Set Point">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
+			<Item Name="Action Update Set Point" Type="Folder">
+				<Item Name="Thermal Chamber Controller_DQMH_Action Update Set Point-setup.vi" Type="VI" URL="../Unit Tests/InstaCoverage/Action Update Set Point/Thermal Chamber Controller_DQMH_Action Update Set Point-setup.vi"/>
+				<Item Name="Thermal Chamber Controller_DQMH_Action Update Set Point-teardown.vi" Type="VI" URL="../Unit Tests/InstaCoverage/Action Update Set Point/Thermal Chamber Controller_DQMH_Action Update Set Point-teardown.vi"/>
+				<Item Name="Thermal Chamber Controller_DQMH_Action Update Set Point-test_harness.vi" Type="VI" URL="../Unit Tests/InstaCoverage/Action Update Set Point/Thermal Chamber Controller_DQMH_Action Update Set Point-test_harness.vi"/>
+				<Item Name="Thermal Chamber Controller_DQMH_Action Update Set Point.instacov" Type="Document" URL="../Unit Tests/InstaCoverage/Action Update Set Point/Thermal Chamber Controller_DQMH_Action Update Set Point.instacov"/>
 			</Item>
 		</Item>
 		<Item Name="UTF unit tests" Type="Folder">
-			<Item Name="Action Update Heater State" Type="Folder" URL="../Unit Tests/UTF/Action Update Heater State">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
+			<Item Name="Action Update Heater State" Type="Folder">
+				<Item Name="Action Update Heater State-with-queue-setup.vi" Type="VI" URL="../Unit Tests/UTF/Action Update Heater State/Action Update Heater State-with-queue-setup.vi"/>
+				<Item Name="Action Update Heater State-with-queue-teardown.vi" Type="VI" URL="../Unit Tests/UTF/Action Update Heater State/Action Update Heater State-with-queue-teardown.vi"/>
+				<Item Name="Action Update Heater State.lvtest" Type="TestItem" URL="../Unit Tests/UTF/Action Update Heater State/Action Update Heater State.lvtest">
+					<Property Name="utf.test.bind" Type="Str">Thermal Chamber Controller_DQMH.lvlib:Action Update Heater State.vi</Property>
+					<Property Name="utf.vector.test.bind" Type="Str">9850B55D-B369-ABE2-F983-A0D85FF3C37E</Property>
+				</Item>
 			</Item>
-			<Item Name="Action Update Set Point" Type="Folder" URL="../Unit Tests/UTF/Action Update Set Point">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
+			<Item Name="Action Update Set Point" Type="Folder">
+				<Item Name="Action Update Set Point-with-queue-setup.vi" Type="VI" URL="../Unit Tests/UTF/Action Update Set Point/Action Update Set Point-with-queue-setup.vi"/>
+				<Item Name="Action Update Set Point-with.queue-teardown.vi" Type="VI" URL="../Unit Tests/UTF/Action Update Set Point/Action Update Set Point-with.queue-teardown.vi"/>
+				<Item Name="Action Update Set Point.lvtest" Type="TestItem" URL="../Unit Tests/UTF/Action Update Set Point/Action Update Set Point.lvtest">
+					<Property Name="utf.test.bind" Type="Str">Thermal Chamber Controller_DQMH.lvlib:Action Update Set Point.vi</Property>
+					<Property Name="utf.vector.test.bind" Type="Str">EC1A766A-767D-FCAE-EA25-AE0F1B9B1FA6</Property>
+				</Item>
 			</Item>
-			<Item Name="Action Update Ramp Rate" Type="Folder" URL="../Unit Tests/UTF/Action Update Ramp Rate">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
+			<Item Name="Action Update Ramp Rate" Type="Folder">
+				<Item Name="Action Update Ramp Rate-with-queue-setup.vi" Type="VI" URL="../Unit Tests/UTF/Action Update Ramp Rate/Action Update Ramp Rate-with-queue-setup.vi"/>
+				<Item Name="Action Update Ramp Rate-with-queue-teardown.vi" Type="VI" URL="../Unit Tests/UTF/Action Update Ramp Rate/Action Update Ramp Rate-with-queue-teardown.vi"/>
+				<Item Name="Action Update Ramp Rate.lvtest" Type="TestItem" URL="../Unit Tests/UTF/Action Update Ramp Rate/Action Update Ramp Rate.lvtest">
+					<Property Name="utf.test.bind" Type="Str">Thermal Chamber Controller_DQMH.lvlib:Action Update Ramp Rate.vi</Property>
+					<Property Name="utf.vector.test.bind" Type="Str">BE6CE874-D7DE-0B40-3736-24F507CDE15D</Property>
+				</Item>
 			</Item>
 			<Item Name="QueueAddTestCaseID.vi" Type="VI" URL="../Unit Tests/UTF/QueueAddTestCaseID.vi"/>
 			<Item Name="QueueGetTestCaseID.vi" Type="VI" URL="../Unit Tests/UTF/QueueGetTestCaseID.vi"/>
@@ -130,14 +154,14 @@
 			<Item Name="Action Update Ramp Rate.lvclass" Type="LVClass" URL="../Unit Tests/VI-Tester/Action Update Ramp Rate/Action Update Ramp Rate.lvclass"/>
 		</Item>
 		<Item Name="Caraya unit tests" Type="Folder">
-			<Item Name="Action Update Heater State" Type="Folder" URL="../Unit Tests/Caraya/Action Update Heater State">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
+			<Item Name="Action Update Heater State" Type="Folder">
+				<Item Name="Action Update Heater State-test-Caraya.vi" Type="VI" URL="../Unit Tests/Caraya/Action Update Heater State/Action Update Heater State-test-Caraya.vi"/>
 			</Item>
-			<Item Name="Action Update Ramp Rate" Type="Folder" URL="../Unit Tests/Caraya/Action Update Ramp Rate">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
+			<Item Name="Action Update Ramp Rate" Type="Folder">
+				<Item Name="Action Update Ramp Rate-test-Caraya.vi" Type="VI" URL="../Unit Tests/Caraya/Action Update Ramp Rate/Action Update Ramp Rate-test-Caraya.vi"/>
 			</Item>
-			<Item Name="Action Update Set Point" Type="Folder" URL="../Unit Tests/Caraya/Action Update Set Point">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
+			<Item Name="Action Update Set Point" Type="Folder">
+				<Item Name="Action Update Set Point-test-Caraya.vi" Type="VI" URL="../Unit Tests/Caraya/Action Update Set Point/Action Update Set Point-test-Caraya.vi"/>
 			</Item>
 			<Item Name="TestAll.vi" Type="VI" URL="../Unit Tests/Caraya/TestAll.vi"/>
 		</Item>
@@ -147,6 +171,10 @@
 			<Item Name="Vi Tester Time Measurement.vi" Type="VI" URL="../Time Measurement/Vi Tester Time Measurement.vi"/>
 			<Item Name="Caraya Time Measurement.vi" Type="VI" URL="../Time Measurement/Caraya Time Measurement.vi"/>
 			<Item Name="Test Time Measurement.vi" Type="VI" URL="../Time Measurement/Test Time Measurement.vi"/>
+			<Item Name="Caraya Time Measurement Runner.vi" Type="VI" URL="../Time Measurement/Caraya Time Measurement Runner.vi"/>
+			<Item Name="InstaCoverage Time Measurement Runner.vi" Type="VI" URL="../Time Measurement/InstaCoverage Time Measurement Runner.vi"/>
+			<Item Name="UTF Time Measurement Runner.vi" Type="VI" URL="../Time Measurement/UTF Time Measurement Runner.vi"/>
+			<Item Name="Vi Tester Time Measurement Runner.vi" Type="VI" URL="../Time Measurement/Vi Tester Time Measurement Runner.vi"/>
 		</Item>
 		<Item Name="Thermal Chamber Controller.vi" Type="VI" URL="../Thermal Chamber Controller.vi"/>
 		<Item Name="Thermal Chamber Controller with DUT.vi" Type="VI" URL="../Thermal Chamber Controller with DUT.vi"/>
