@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TEST_SUITE ICovVersion="2.2.1.1" id="GUI Interlock Tester.instacov">
+
+  <TEST_CASES>
+    <TEST_CASE id="Power On">
+      <COMMENT>Test comment</COMMENT>
+      <REQUIREMENT>Test requirement</REQUIREMENT>
+    </TEST_CASE>
+    <TEST_CASE id="Power Off">
+      <COMMENT>Test comment</COMMENT>
+      <REQUIREMENT>Test requirement</REQUIREMENT>
+    </TEST_CASE>
+  </TEST_CASES>
+
+  <HARNESS_PATH>GUI Interlock Tester-harness.vi</HARNESS_PATH>
+
+  <VI_UNDER_TEST_PATH>..\..\..\Libraries\Device Under Test_Cloneable_DQMH\GUI Interlock Tester.vi</VI_UNDER_TEST_PATH>
+
+</TEST_SUITE>

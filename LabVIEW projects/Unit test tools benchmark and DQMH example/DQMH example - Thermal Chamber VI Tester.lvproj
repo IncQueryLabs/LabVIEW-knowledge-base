@@ -104,8 +104,14 @@
 			<Item Name="Action Update Set Point.lvclass" Type="LVClass" URL="../Unit Tests/VI-Tester/Action Update Set Point/Action Update Set Point.lvclass"/>
 			<Item Name="Action Update Heater State.lvclass" Type="LVClass" URL="../Unit Tests/VI-Tester/Action Update Heater State/Action Update Heater State.lvclass"/>
 			<Item Name="Action Update Ramp Rate.lvclass" Type="LVClass" URL="../Unit Tests/VI-Tester/Action Update Ramp Rate/Action Update Ramp Rate.lvclass"/>
+			<Item Name="Convert Shutdown Furnace to Heater State Enum.lvclass" Type="LVClass" URL="../Unit Tests/VI-Tester/Convert Shutdown Furnace to Heater State Enum/Convert Shutdown Furnace to Heater State Enum.lvclass"/>
+			<Item Name="GUI Interlock Tester.lvclass" Type="LVClass" URL="../Unit Tests/VI-Tester/GUI Interlock Tester/GUI Interlock Tester.lvclass"/>
+			<Item Name="Get Chamber Status.lvclass" Type="LVClass" URL="../Unit Tests/VI-Tester/Get Chamber Status/Get Chamber Status.lvclass"/>
+			<Item Name="Thermal Chamber Response Simulator_Init.lvclass" Type="LVClass" URL="../Unit Tests/VI-Tester/Thermal Chamber Response Simulator_Init/Thermal Chamber Response Simulator_Init.lvclass"/>
+			<Item Name="Calculate Temperature Change.lvclass" Type="LVClass" URL="../Unit Tests/VI-Tester/Calculate Temperature Change/Calculate Temperature Change.lvclass"/>
 		</Item>
 		<Item Name="Time Measurement" Type="Folder">
+			<Item Name="Common Support.lvlib" Type="Library" URL="../Time Measurement/Common Support/Common Support.lvlib"/>
 			<Item Name="Vi Tester Time Measurement.vi" Type="VI" URL="../Time Measurement/Vi Tester Time Measurement.vi"/>
 			<Item Name="Vi Tester Time Measurement Runner.vi" Type="VI" URL="../Time Measurement/Vi Tester Time Measurement Runner.vi"/>
 		</Item>
@@ -481,17 +487,6 @@
 				<Item Name="File Exists - Scalar__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/File Exists - Scalar__ogtk__jki_vi_tester.vi"/>
 				<Item Name="File Exists - Array__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/File Exists - Array__ogtk__jki_vi_tester.vi"/>
 				<Item Name="File Exists__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/File Exists__ogtk__jki_vi_tester.vi"/>
-				<Item Name="Delacor_lib_QMH_Module Admin.ctl" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Module Admin_class/Delacor_lib_QMH_Module Admin.lvclass/Delacor_lib_QMH_Module Admin.ctl"/>
-				<Item Name="Delacor_lib_QMH_Get External Launch.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Module Admin_class/Delacor_lib_QMH_Get External Launch.vi"/>
-				<Item Name="Delacor_lib_QMH_Create Message Queue.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Message Queue_class/Delacor_lib_QMH_Create Message Queue.vi"/>
-				<Item Name="Delacor_lib_QMH_Enqueue Message (poly).vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Message Queue_class/Delacor_lib_QMH_Enqueue Message (poly).vi"/>
-				<Item Name="Delacor_lib_QMH_Enqueue Message (Single).vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Message Queue_class/Delacor_lib_QMH_Enqueue Message (Single).vi"/>
-				<Item Name="Delacor_lib_QMH_Set External Launch.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Module Admin_class/Delacor_lib_QMH_Set External Launch.vi"/>
-				<Item Name="Delacor_lib_QMH_Cloneable Module Admin.ctl" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Cloneable Module Admin_class/Delacor_lib_QMH_Cloneable Module Admin.lvclass/Delacor_lib_QMH_Cloneable Module Admin.ctl"/>
-				<Item Name="Delacor_lib_QMH_Set Module ID.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Cloneable Module Admin_class/Delacor_lib_QMH_Set Module ID.vi"/>
-				<Item Name="Delacor_lib_QMH_Get Module ID.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Cloneable Module Admin_class/Delacor_lib_QMH_Get Module ID.vi"/>
-				<Item Name="Delacor_lib_QMH_Set First.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Cloneable Module Admin_class/Delacor_lib_QMH_Set First.vi"/>
-				<Item Name="Delacor_lib_QMH_Get First.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Cloneable Module Admin_class/Delacor_lib_QMH_Get First.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

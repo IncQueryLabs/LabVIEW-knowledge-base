@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="14008000">
-	<Property Name="NI.Lib.Icon" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)*!!!*Q(C=\&gt;4.D2J"&amp;-4RMO7$LW2AE=*,A22)Y;8!V5&gt;3+-E2E!)J6!KE1!LL`\3@VBT7XIN87FH&lt;1Q^1`@7D:RBJF;`3&amp;TW^6H\]N@RO8VX8[X(11`NKGP?X;&amp;]@@ZV?;P_4`Z7CD`*2`O`S`&gt;5`Q:P`$TZJ?R"21T7VK;6NW;?1BTTE)1^ZS%VO=J/&lt;X/1G&lt;`)G&lt;`)G&lt;`)G,`)C,`)C,`)C8Q?ZS%5O=EBB]&lt;"1G$2-%$J$54A&amp;4`!%4`$Q6=%40-%40-&amp;$&amp;Q60]!20]!10QR1]Q2-]Q2-]4,5E71=ZHO"B?BG0]2C0]2A03]JY$-!M:C9WE]#1;41@D-&gt;YD)?0-B\D-2\D-2[;:4T'9TT'9TQ-7&lt;PCJ&gt;E/=DR-I]&lt;4?"J0YWE]4+X'UXA;4_.J0#SHRN.Y'E3T9$-Z"$7$GA\.F]&lt;4?(B4YWE]D;@R."[;VB8KN4/&lt;:DP)]23?QF.Y#E`B91I6HM*4?!J0Y7&amp;;&amp;:\#5XA+4_&amp;B+27?QF.Y#ECR+-OLG+Q97(1KAM,$;^UNN;[3F[47)=X.K\EJ.4?&lt;ZC&lt;3X"S;C[[ZG*K,J.F]T;:K.EOT#:I@JU&amp;L-*J&amp;.)/XDLJTPF'PV!PV4$V2D^1$&gt;5`&gt;&lt;50`==@\`;\&lt;\;&lt;L^;L,Z;,T_;T4[;4D];D$Y;$^@K`&gt;&lt;P@]'0D']@R!?!`0J8&gt;B_+T(.&gt;CDHS]\KD]!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">335577088</Property>
+<Library LVVersion="18008000">
+	<Property Name="NI.Lib.Icon" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)*!!!*Q(C=\&gt;4.D2J"&amp;-4RMO7$LW2AE=*,A22)Y;8!V5&gt;3+-E2E!)J6!KE1!LL`\3@VBT7XIN87FH&lt;1Q^1`@7D:RBJF;`3&amp;TW^6H\]N@RO8VX8[X(11`NKGP?X;&amp;]@@ZV?;P_4`Z7CD`*2`O`S`&gt;5`Q:P`$TZJ?R"21T7VK;6NW;?1BTTE)1^ZS%VO=J/&lt;X/1G&lt;`)G&lt;`)G&lt;`)G,`)C,`)C,`)C8Q?ZS%5O=EBB]&lt;"1G$2-%$J$54A&amp;4`!%4`$Q6=%40-%40-&amp;$&amp;Q60]!20]!10QR1]Q2-]Q2-]4,5E71=ZHO"B?BG0]2C0]2A03]JY$-!M:C9WE]#1;41@D-&gt;YD)?0-B\D-2\D-2[;:4T'9TT'9TQ-7&lt;PCJ&gt;E/=DR-I]&lt;4?"J0YWE]4+X'UXA;4_.J0#SHRN.Y'E3T9$-Z"$7$GA\.F]&lt;4?(B4YWE]D;@R."[;VB8KN4/&lt;:DP)]23?QF.Y#E`B91I6HM*4?!J0Y7&amp;;&amp;:\#5XA+4_&amp;B+27?QF.Y#ECR+-OLG+Q97(1KAM,$;^UNN;[3F[47)=X.K\EJ.4?&lt;ZC&lt;3X"S;C[[ZG*K,J.F]T;:K.EOT#:I@JU&amp;L-*J&amp;.)/XDLJTPF'PV!PV4$V2D^1$&gt;5`&gt;&lt;50`==@\`;\&lt;\;&lt;L^;L,Z;,T_;T4[;4D];D$Y;$^@K`&gt;&lt;P@]'0D']@R!?!`0J8&gt;B_+T(.&gt;CDHS]\KD]!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
@@ -107,4 +107,5 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="GUI Interlock Tester.vi" Type="VI" URL="../GUI Interlock Tester.vi"/>
 </Library>

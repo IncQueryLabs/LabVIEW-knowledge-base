@@ -110,11 +110,31 @@
 			<Item Name="Action Update Set Point" Type="Folder">
 				<Item Name="Action Update Set Point-test-Caraya.vi" Type="VI" URL="../Unit Tests/Caraya/Action Update Set Point/Action Update Set Point-test-Caraya.vi"/>
 			</Item>
+			<Item Name="Convert Shutdown Furnace to Heater State Enum" Type="Folder">
+				<Item Name="Convert Shutdown Furnace to Heater State Enum-case.ctl" Type="VI" URL="../Unit Tests/Caraya/Convert Shutdown Furnace to Heater State Enum/Convert Shutdown Furnace to Heater State Enum-case.ctl"/>
+				<Item Name="Convert Shutdown Furnace to Heater State Enum.vi" Type="VI" URL="../Unit Tests/Caraya/Convert Shutdown Furnace to Heater State Enum/Convert Shutdown Furnace to Heater State Enum.vi"/>
+			</Item>
+			<Item Name="GUI Interlock Tester" Type="Folder">
+				<Item Name="GUI Interlock Tester.vi" Type="VI" URL="../Unit Tests/Caraya/GUI Interlock Tester/GUI Interlock Tester.vi"/>
+				<Item Name="GUI Interlock Tester-case.ctl" Type="VI" URL="../Unit Tests/Caraya/GUI Interlock Tester/GUI Interlock Tester-case.ctl"/>
+			</Item>
+			<Item Name="Get Chamber Status" Type="Folder">
+				<Item Name="Get Chamber Status.vi" Type="VI" URL="../Unit Tests/Caraya/Get Chamber Status/Get Chamber Status.vi"/>
+				<Item Name="Get Chamber Status-Caraya-setup.vi" Type="VI" URL="../Unit Tests/Caraya/Get Chamber Status/Get Chamber Status-Caraya-setup.vi"/>
+			</Item>
+			<Item Name="Thermal Chamber Response Simulator_Init" Type="Folder">
+				<Item Name="Thermal Chamber Response Simulator_Init.vi" Type="VI" URL="../Unit Tests/Caraya/Thermal Chamber Response Simulator_Init/Thermal Chamber Response Simulator_Init.vi"/>
+			</Item>
+			<Item Name="Calculate Temperature Change" Type="Folder">
+				<Item Name="Calculate Temperature Change.vi" Type="VI" URL="../Unit Tests/Caraya/Calculate Temperature Change/Calculate Temperature Change.vi"/>
+				<Item Name="Calculate Temperature Change-case.ctl" Type="VI" URL="../Unit Tests/Caraya/Calculate Temperature Change/Calculate Temperature Change-case.ctl"/>
+			</Item>
 			<Item Name="TestAll.vi" Type="VI" URL="../Unit Tests/Caraya/TestAll.vi"/>
 		</Item>
 		<Item Name="Time Measurement" Type="Folder">
 			<Item Name="Caraya Time Measurement.vi" Type="VI" URL="../Time Measurement/Caraya Time Measurement.vi"/>
 			<Item Name="Caraya Time Measurement Runner.vi" Type="VI" URL="../Time Measurement/Caraya Time Measurement Runner.vi"/>
+			<Item Name="Common Support.lvlib" Type="Library" URL="../Time Measurement/Common Support/Common Support.lvlib"/>
 		</Item>
 		<Item Name="Thermal Chamber Controller.vi" Type="VI" URL="../Thermal Chamber Controller.vi"/>
 		<Item Name="Thermal Chamber Controller with DUT.vi" Type="VI" URL="../Thermal Chamber Controller with DUT.vi"/>
@@ -472,17 +492,6 @@
 				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
 				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
 				<Item Name="Application Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/menu/Application Menu.rtm"/>
-				<Item Name="Delacor_lib_QMH_Module Admin.ctl" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Module Admin_class/Delacor_lib_QMH_Module Admin.lvclass/Delacor_lib_QMH_Module Admin.ctl"/>
-				<Item Name="Delacor_lib_QMH_Get External Launch.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Module Admin_class/Delacor_lib_QMH_Get External Launch.vi"/>
-				<Item Name="Delacor_lib_QMH_Create Message Queue.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Message Queue_class/Delacor_lib_QMH_Create Message Queue.vi"/>
-				<Item Name="Delacor_lib_QMH_Enqueue Message (poly).vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Message Queue_class/Delacor_lib_QMH_Enqueue Message (poly).vi"/>
-				<Item Name="Delacor_lib_QMH_Enqueue Message (Single).vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Message Queue_class/Delacor_lib_QMH_Enqueue Message (Single).vi"/>
-				<Item Name="Delacor_lib_QMH_Set External Launch.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Module Admin_class/Delacor_lib_QMH_Set External Launch.vi"/>
-				<Item Name="Delacor_lib_QMH_Cloneable Module Admin.ctl" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Cloneable Module Admin_class/Delacor_lib_QMH_Cloneable Module Admin.lvclass/Delacor_lib_QMH_Cloneable Module Admin.ctl"/>
-				<Item Name="Delacor_lib_QMH_Set Module ID.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Cloneable Module Admin_class/Delacor_lib_QMH_Set Module ID.vi"/>
-				<Item Name="Delacor_lib_QMH_Get Module ID.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Cloneable Module Admin_class/Delacor_lib_QMH_Get Module ID.vi"/>
-				<Item Name="Delacor_lib_QMH_Set First.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Cloneable Module Admin_class/Delacor_lib_QMH_Set First.vi"/>
-				<Item Name="Delacor_lib_QMH_Get First.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Cloneable Module Admin_class/Delacor_lib_QMH_Get First.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

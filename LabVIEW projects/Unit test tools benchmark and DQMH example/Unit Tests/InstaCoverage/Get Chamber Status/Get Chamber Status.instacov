@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TEST_SUITE ICovVersion="2.2.1.1" id="Get Chamber Status.instacov">
+
+  <TEST_CASES>
+    <TEST_CASE id="Test Status">
+      <COMMENT>Test comment</COMMENT>
+      <REQUIREMENT>Test requirement</REQUIREMENT>
+    </TEST_CASE>
+    <TEST_CASE id="Error Before Get Status">
+      <COMMENT></COMMENT>
+      <REQUIREMENT></REQUIREMENT>
+    </TEST_CASE>
+  </TEST_CASES>
+
+  <HARNESS_PATH>Get Chamber Status-harness.vi</HARNESS_PATH>
+
+  <VI_UNDER_TEST_PATH>..\..\..\Libraries\Thermal Chamber Response Simulator\Get Chamber Status.vi</VI_UNDER_TEST_PATH>
+
+</TEST_SUITE>
