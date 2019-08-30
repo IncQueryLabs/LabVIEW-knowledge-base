@@ -258,7 +258,6 @@
 			<Item Name="InstaCoverage Time Measurement.vi" Type="VI" URL="../Time Measurement/InstaCoverage Time Measurement.vi"/>
 			<Item Name="Vi Tester Time Measurement.vi" Type="VI" URL="../Time Measurement/Vi Tester Time Measurement.vi"/>
 			<Item Name="Caraya Time Measurement.vi" Type="VI" URL="../Time Measurement/Caraya Time Measurement.vi"/>
-			<Item Name="Test Time Measurement.vi" Type="VI" URL="../Time Measurement/Test Time Measurement.vi"/>
 			<Item Name="Caraya Time Measurement Runner.vi" Type="VI" URL="../Time Measurement/Caraya Time Measurement Runner.vi"/>
 			<Item Name="InstaCoverage Time Measurement Runner.vi" Type="VI" URL="../Time Measurement/InstaCoverage Time Measurement Runner.vi"/>
 			<Item Name="UTF Time Measurement Runner.vi" Type="VI" URL="../Time Measurement/UTF Time Measurement Runner.vi"/>
