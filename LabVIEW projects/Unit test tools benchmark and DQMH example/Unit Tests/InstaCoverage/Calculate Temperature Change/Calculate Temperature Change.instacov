@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TEST_SUITE ICovVersion="2.2.1.1" id="Calculate Temperature Change.instacov">
+
+  <TEST_CASES>
+    <TEST_CASE id="Change ra10 rte20 ate30 i0.1 sht">
+      <COMMENT>Abbreviations in test case names: ra = Ramp Rate; rte = Required Temperature deg C; ate = Actual Temperature in deg C; i = Time Interval (s); sh = Shutdown (shf = Shutdown false, sht = Shutdown true)</COMMENT>
+      <REQUIREMENT>Test requirement</REQUIREMENT>
+    </TEST_CASE>
+    <TEST_CASE id="Change ra4 rte2 ate43 i5 shf">
+      <COMMENT>Abbreviations in test case names: ra = Ramp Rate; rte = Required Temperature deg C; ate = Actual Temperature in deg C; i = Time Interval (s); sh = Shutdown (shf = Shutdown false, sht = Shutdown true)</COMMENT>
+      <REQUIREMENT>Test requirement</REQUIREMENT>
+    </TEST_CASE>
+  </TEST_CASES>
+
+  <HARNESS_PATH>Calculate Temperature Change-harness.vi</HARNESS_PATH>
+
+  <VI_UNDER_TEST_PATH>..\..\..\Libraries\Thermal Chamber Response Simulator\Calculate Temperature Change.vi</VI_UNDER_TEST_PATH>
+
+</TEST_SUITE>

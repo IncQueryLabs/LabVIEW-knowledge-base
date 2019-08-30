@@ -119,6 +119,36 @@
 				<Item Name="Thermal Chamber Controller_DQMH_Action Update Set Point-test_harness.vi" Type="VI" URL="../Unit Tests/InstaCoverage/Action Update Set Point/Thermal Chamber Controller_DQMH_Action Update Set Point-test_harness.vi"/>
 				<Item Name="Thermal Chamber Controller_DQMH_Action Update Set Point.instacov" Type="Document" URL="../Unit Tests/InstaCoverage/Action Update Set Point/Thermal Chamber Controller_DQMH_Action Update Set Point.instacov"/>
 			</Item>
+			<Item Name="Convert Shutdown Furnace to Heater State Enum" Type="Folder">
+				<Item Name="Convert Shutdown Furnace to Heater State Enum-harness.vi" Type="VI" URL="../Unit Tests/InstaCoverage/Convert Shutdown Furnace to Heater State Enum/Convert Shutdown Furnace to Heater State Enum-harness.vi"/>
+				<Item Name="Convert Shutdown Furnace to Heater State Enum-setup.vi" Type="VI" URL="../Unit Tests/InstaCoverage/Convert Shutdown Furnace to Heater State Enum/Convert Shutdown Furnace to Heater State Enum-setup.vi"/>
+				<Item Name="Convert Shutdown Furnace to Heater State Enum-teardown.vi" Type="VI" URL="../Unit Tests/InstaCoverage/Convert Shutdown Furnace to Heater State Enum/Convert Shutdown Furnace to Heater State Enum-teardown.vi"/>
+				<Item Name="Convert Shutdown Furnace to Heater State Enum.instacov" Type="Document" URL="../Unit Tests/InstaCoverage/Convert Shutdown Furnace to Heater State Enum/Convert Shutdown Furnace to Heater State Enum.instacov"/>
+			</Item>
+			<Item Name="GUI Interlock Tester" Type="Folder">
+				<Item Name="GUI Interlock Tester-harness.vi" Type="VI" URL="../Unit Tests/InstaCoverage/GUI Interlock Tester/GUI Interlock Tester-harness.vi"/>
+				<Item Name="GUI Interlock Tester-setup.vi" Type="VI" URL="../Unit Tests/InstaCoverage/GUI Interlock Tester/GUI Interlock Tester-setup.vi"/>
+				<Item Name="GUI Interlock Tester-teardown.vi" Type="VI" URL="../Unit Tests/InstaCoverage/GUI Interlock Tester/GUI Interlock Tester-teardown.vi"/>
+				<Item Name="GUI Interlock Tester.instacov" Type="Document" URL="../Unit Tests/InstaCoverage/GUI Interlock Tester/GUI Interlock Tester.instacov"/>
+			</Item>
+			<Item Name="Get Chamber Status" Type="Folder">
+				<Item Name="Get Chamber Status-harness.vi" Type="VI" URL="../Unit Tests/InstaCoverage/Get Chamber Status/Get Chamber Status-harness.vi"/>
+				<Item Name="Get Chamber Status-setup.vi" Type="VI" URL="../Unit Tests/InstaCoverage/Get Chamber Status/Get Chamber Status-setup.vi"/>
+				<Item Name="Get Chamber Status-teardown.vi" Type="VI" URL="../Unit Tests/InstaCoverage/Get Chamber Status/Get Chamber Status-teardown.vi"/>
+				<Item Name="Get Chamber Status.instacov" Type="Document" URL="../Unit Tests/InstaCoverage/Get Chamber Status/Get Chamber Status.instacov"/>
+			</Item>
+			<Item Name="Thermal Chamber Response Simulator_Init" Type="Folder">
+				<Item Name="Thermal Chamber Response Simulator_Init.instacov" Type="Document" URL="../Unit Tests/InstaCoverage/Thermal Chamber Response Simulator_Init/Thermal Chamber Response Simulator_Init.instacov"/>
+				<Item Name="Thermal Chamber Response Simulator_Init-harness.vi" Type="VI" URL="../Unit Tests/InstaCoverage/Thermal Chamber Response Simulator_Init/Thermal Chamber Response Simulator_Init-harness.vi"/>
+				<Item Name="Thermal Chamber Response Simulator_Init-setup.vi" Type="VI" URL="../Unit Tests/InstaCoverage/Thermal Chamber Response Simulator_Init/Thermal Chamber Response Simulator_Init-setup.vi"/>
+				<Item Name="Thermal Chamber Response Simulator_Init-teardown.vi" Type="VI" URL="../Unit Tests/InstaCoverage/Thermal Chamber Response Simulator_Init/Thermal Chamber Response Simulator_Init-teardown.vi"/>
+			</Item>
+			<Item Name="Calculate Temperature Change" Type="Folder">
+				<Item Name="Calculate Temperature Change-harness.vi" Type="VI" URL="../Unit Tests/InstaCoverage/Calculate Temperature Change/Calculate Temperature Change-harness.vi"/>
+				<Item Name="Calculate Temperature Change-setup.vi" Type="VI" URL="../Unit Tests/InstaCoverage/Calculate Temperature Change/Calculate Temperature Change-setup.vi"/>
+				<Item Name="Calculate Temperature Change-teardown.vi" Type="VI" URL="../Unit Tests/InstaCoverage/Calculate Temperature Change/Calculate Temperature Change-teardown.vi"/>
+				<Item Name="Calculate Temperature Change.instacov" Type="Document" URL="../Unit Tests/InstaCoverage/Calculate Temperature Change/Calculate Temperature Change.instacov"/>
+			</Item>
 		</Item>
 		<Item Name="UTF unit tests" Type="Folder">
 			<Item Name="Action Update Heater State" Type="Folder">
@@ -145,6 +175,40 @@
 					<Property Name="utf.vector.test.bind" Type="Str">BE6CE874-D7DE-0B40-3736-24F507CDE15D</Property>
 				</Item>
 			</Item>
+			<Item Name="Convert Shutdown Furnace to Heater State Enum" Type="Folder">
+				<Item Name="Convert Shutdown Furnace to Heater State Enum.lvtest" Type="TestItem" URL="../Unit Tests/UTF/Convert Shutdown Furnace to Heater State Enum/Convert Shutdown Furnace to Heater State Enum.lvtest">
+					<Property Name="utf.test.bind" Type="Str">Thermal Chamber Controller_DQMH.lvlib:Convert Shutdown Furnace to Heater State Enum.vi</Property>
+					<Property Name="utf.vector.test.bind" Type="Str">B3FD1E9E-2115-CFC6-8484-762AEA895A23</Property>
+				</Item>
+			</Item>
+			<Item Name="GUI Interlock Tester" Type="Folder">
+				<Item Name="GUI Interlock Tester.lvtest" Type="TestItem" URL="../Unit Tests/UTF/GUI Interlock Tester/GUI Interlock Tester.lvtest">
+					<Property Name="utf.test.bind" Type="Str">Device Under Test_Cloneable_DQMH.lvlib:GUI Interlock Tester.vi</Property>
+					<Property Name="utf.vector.test.bind" Type="Str">881A6D88-1680-1E70-C52F-6726D4FD4B24</Property>
+				</Item>
+				<Item Name="Gui Interlock Tester-UTF-Test-VI.vi" Type="VI" URL="../Unit Tests/UTF/GUI Interlock Tester/Gui Interlock Tester-UTF-Test-VI.vi"/>
+				<Item Name="Single-Test-Case.vi" Type="VI" URL="../Unit Tests/UTF/GUI Interlock Tester/Single-Test-Case.vi"/>
+			</Item>
+			<Item Name="Get Chamber Status" Type="Folder">
+				<Item Name="Get Chamber Status.lvtest" Type="TestItem" URL="../Unit Tests/UTF/Get Chamber Status/Get Chamber Status.lvtest">
+					<Property Name="utf.test.bind" Type="Str">Thermal Chamber Response Simulator.lvlib:Get Chamber Status.vi</Property>
+					<Property Name="utf.vector.test.bind" Type="Str">FFCBA651-4632-2878-7718-23E7680CBB47</Property>
+				</Item>
+				<Item Name="Get Chamber Status-UTF-Setup.vi" Type="VI" URL="../Unit Tests/UTF/Get Chamber Status/Get Chamber Status-UTF-Setup.vi"/>
+			</Item>
+			<Item Name="Thermal Chamber Response Simulator_Init" Type="Folder">
+				<Item Name="Thermal Chamber Response Simulator_Init.lvtest" Type="TestItem" URL="../Unit Tests/UTF/Thermal Chamber Response Simulator_Init/Thermal Chamber Response Simulator_Init.lvtest">
+					<Property Name="utf.test.bind" Type="Str">Thermal Chamber Response Simulator.lvlib:Init.vi</Property>
+					<Property Name="utf.vector.test.bind" Type="Str">CF3CFC2A-5DE3-72D1-6830-13DF78F99E15</Property>
+				</Item>
+				<Item Name="Thermal Chamber Response Simulator_Init-UTF-Teardown.vi" Type="VI" URL="../Unit Tests/UTF/Thermal Chamber Response Simulator_Init/Thermal Chamber Response Simulator_Init-UTF-Teardown.vi"/>
+			</Item>
+			<Item Name="Calculate Temperature Change" Type="Folder">
+				<Item Name="Calculate Temperature Change.lvtest" Type="TestItem" URL="../Unit Tests/UTF/Calculate Temperature Change/Calculate Temperature Change.lvtest">
+					<Property Name="utf.test.bind" Type="Str">Thermal Chamber Response Simulator.lvlib:Calculate Temperature Change.vi</Property>
+					<Property Name="utf.vector.test.bind" Type="Str">7ABC6241-1D59-9334-01F6-C63B80DBD60F</Property>
+				</Item>
+			</Item>
 			<Item Name="QueueAddTestCaseID.vi" Type="VI" URL="../Unit Tests/UTF/QueueAddTestCaseID.vi"/>
 			<Item Name="QueueGetTestCaseID.vi" Type="VI" URL="../Unit Tests/UTF/QueueGetTestCaseID.vi"/>
 		</Item>
@@ -152,6 +216,11 @@
 			<Item Name="Action Update Set Point.lvclass" Type="LVClass" URL="../Unit Tests/VI-Tester/Action Update Set Point/Action Update Set Point.lvclass"/>
 			<Item Name="Action Update Heater State.lvclass" Type="LVClass" URL="../Unit Tests/VI-Tester/Action Update Heater State/Action Update Heater State.lvclass"/>
 			<Item Name="Action Update Ramp Rate.lvclass" Type="LVClass" URL="../Unit Tests/VI-Tester/Action Update Ramp Rate/Action Update Ramp Rate.lvclass"/>
+			<Item Name="Convert Shutdown Furnace to Heater State Enum.lvclass" Type="LVClass" URL="../Unit Tests/VI-Tester/Convert Shutdown Furnace to Heater State Enum/Convert Shutdown Furnace to Heater State Enum.lvclass"/>
+			<Item Name="GUI Interlock Tester.lvclass" Type="LVClass" URL="../Unit Tests/VI-Tester/GUI Interlock Tester/GUI Interlock Tester.lvclass"/>
+			<Item Name="Get Chamber Status.lvclass" Type="LVClass" URL="../Unit Tests/VI-Tester/Get Chamber Status/Get Chamber Status.lvclass"/>
+			<Item Name="Thermal Chamber Response Simulator_Init.lvclass" Type="LVClass" URL="../Unit Tests/VI-Tester/Thermal Chamber Response Simulator_Init/Thermal Chamber Response Simulator_Init.lvclass"/>
+			<Item Name="Calculate Temperature Change.lvclass" Type="LVClass" URL="../Unit Tests/VI-Tester/Calculate Temperature Change/Calculate Temperature Change.lvclass"/>
 		</Item>
 		<Item Name="Caraya unit tests" Type="Folder">
 			<Item Name="Action Update Heater State" Type="Folder">
@@ -163,6 +232,25 @@
 			<Item Name="Action Update Set Point" Type="Folder">
 				<Item Name="Action Update Set Point-test-Caraya.vi" Type="VI" URL="../Unit Tests/Caraya/Action Update Set Point/Action Update Set Point-test-Caraya.vi"/>
 			</Item>
+			<Item Name="Convert Shutdown Furnace to Heater State Enum" Type="Folder">
+				<Item Name="Convert Shutdown Furnace to Heater State Enum-case.ctl" Type="VI" URL="../Unit Tests/Caraya/Convert Shutdown Furnace to Heater State Enum/Convert Shutdown Furnace to Heater State Enum-case.ctl"/>
+				<Item Name="Convert Shutdown Furnace to Heater State Enum.vi" Type="VI" URL="../Unit Tests/Caraya/Convert Shutdown Furnace to Heater State Enum/Convert Shutdown Furnace to Heater State Enum.vi"/>
+			</Item>
+			<Item Name="GUI Interlock Tester" Type="Folder">
+				<Item Name="GUI Interlock Tester.vi" Type="VI" URL="../Unit Tests/Caraya/GUI Interlock Tester/GUI Interlock Tester.vi"/>
+				<Item Name="GUI Interlock Tester-case.ctl" Type="VI" URL="../Unit Tests/Caraya/GUI Interlock Tester/GUI Interlock Tester-case.ctl"/>
+			</Item>
+			<Item Name="Get Chamber Status" Type="Folder">
+				<Item Name="Get Chamber Status.vi" Type="VI" URL="../Unit Tests/Caraya/Get Chamber Status/Get Chamber Status.vi"/>
+				<Item Name="Get Chamber Status-Caraya-setup.vi" Type="VI" URL="../Unit Tests/Caraya/Get Chamber Status/Get Chamber Status-Caraya-setup.vi"/>
+			</Item>
+			<Item Name="Thermal Chamber Response Simulator_Init" Type="Folder">
+				<Item Name="Thermal Chamber Response Simulator_Init.vi" Type="VI" URL="../Unit Tests/Caraya/Thermal Chamber Response Simulator_Init/Thermal Chamber Response Simulator_Init.vi"/>
+			</Item>
+			<Item Name="Calculate Temperature Change" Type="Folder">
+				<Item Name="Calculate Temperature Change.vi" Type="VI" URL="../Unit Tests/Caraya/Calculate Temperature Change/Calculate Temperature Change.vi"/>
+				<Item Name="Calculate Temperature Change-case.ctl" Type="VI" URL="../Unit Tests/Caraya/Calculate Temperature Change/Calculate Temperature Change-case.ctl"/>
+			</Item>
 			<Item Name="TestAll.vi" Type="VI" URL="../Unit Tests/Caraya/TestAll.vi"/>
 		</Item>
 		<Item Name="Time Measurement" Type="Folder">
@@ -170,11 +258,11 @@
 			<Item Name="InstaCoverage Time Measurement.vi" Type="VI" URL="../Time Measurement/InstaCoverage Time Measurement.vi"/>
 			<Item Name="Vi Tester Time Measurement.vi" Type="VI" URL="../Time Measurement/Vi Tester Time Measurement.vi"/>
 			<Item Name="Caraya Time Measurement.vi" Type="VI" URL="../Time Measurement/Caraya Time Measurement.vi"/>
-			<Item Name="Test Time Measurement.vi" Type="VI" URL="../Time Measurement/Test Time Measurement.vi"/>
 			<Item Name="Caraya Time Measurement Runner.vi" Type="VI" URL="../Time Measurement/Caraya Time Measurement Runner.vi"/>
 			<Item Name="InstaCoverage Time Measurement Runner.vi" Type="VI" URL="../Time Measurement/InstaCoverage Time Measurement Runner.vi"/>
 			<Item Name="UTF Time Measurement Runner.vi" Type="VI" URL="../Time Measurement/UTF Time Measurement Runner.vi"/>
 			<Item Name="Vi Tester Time Measurement Runner.vi" Type="VI" URL="../Time Measurement/Vi Tester Time Measurement Runner.vi"/>
+			<Item Name="Common Support.lvlib" Type="Library" URL="../Time Measurement/Common Support/Common Support.lvlib"/>
 		</Item>
 		<Item Name="Thermal Chamber Controller.vi" Type="VI" URL="../Thermal Chamber Controller.vi"/>
 		<Item Name="Thermal Chamber Controller with DUT.vi" Type="VI" URL="../Thermal Chamber Controller with DUT.vi"/>
@@ -837,17 +925,6 @@
 				<Item Name="File Exists - Scalar__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/File Exists - Scalar__ogtk__jki_vi_tester.vi"/>
 				<Item Name="File Exists - Array__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/File Exists - Array__ogtk__jki_vi_tester.vi"/>
 				<Item Name="File Exists__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/File Exists__ogtk__jki_vi_tester.vi"/>
-				<Item Name="Delacor_lib_QMH_Module Admin.ctl" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Module Admin_class/Delacor_lib_QMH_Module Admin.lvclass/Delacor_lib_QMH_Module Admin.ctl"/>
-				<Item Name="Delacor_lib_QMH_Get External Launch.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Module Admin_class/Delacor_lib_QMH_Get External Launch.vi"/>
-				<Item Name="Delacor_lib_QMH_Create Message Queue.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Message Queue_class/Delacor_lib_QMH_Create Message Queue.vi"/>
-				<Item Name="Delacor_lib_QMH_Enqueue Message (poly).vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Message Queue_class/Delacor_lib_QMH_Enqueue Message (poly).vi"/>
-				<Item Name="Delacor_lib_QMH_Enqueue Message (Single).vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Message Queue_class/Delacor_lib_QMH_Enqueue Message (Single).vi"/>
-				<Item Name="Delacor_lib_QMH_Set External Launch.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Module Admin_class/Delacor_lib_QMH_Set External Launch.vi"/>
-				<Item Name="Delacor_lib_QMH_Cloneable Module Admin.ctl" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Cloneable Module Admin_class/Delacor_lib_QMH_Cloneable Module Admin.lvclass/Delacor_lib_QMH_Cloneable Module Admin.ctl"/>
-				<Item Name="Delacor_lib_QMH_Set Module ID.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Cloneable Module Admin_class/Delacor_lib_QMH_Set Module ID.vi"/>
-				<Item Name="Delacor_lib_QMH_Get Module ID.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Cloneable Module Admin_class/Delacor_lib_QMH_Get Module ID.vi"/>
-				<Item Name="Delacor_lib_QMH_Set First.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Cloneable Module Admin_class/Delacor_lib_QMH_Set First.vi"/>
-				<Item Name="Delacor_lib_QMH_Get First.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Cloneable Module Admin_class/Delacor_lib_QMH_Get First.vi"/>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="InstaCoverageCore.lvlib" Type="Library" URL="/&lt;vilib&gt;/InstaCoverage/Core/InstaCoverageCore.lvlib"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>

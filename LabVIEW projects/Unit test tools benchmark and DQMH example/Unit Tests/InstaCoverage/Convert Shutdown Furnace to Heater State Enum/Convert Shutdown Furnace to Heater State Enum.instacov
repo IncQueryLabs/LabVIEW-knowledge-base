@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TEST_SUITE ICovVersion="2.2.1.1" id="Convert Shutdown Furnace to Heater State Enum.instacov">
+
+  <TEST_CASES>
+    <TEST_CASE id="Shutdown True">
+      <COMMENT>Test comment</COMMENT>
+      <REQUIREMENT>Test requirement</REQUIREMENT>
+    </TEST_CASE>
+    <TEST_CASE id="Shutdown False">
+      <COMMENT>Test comment</COMMENT>
+      <REQUIREMENT>Test requirement</REQUIREMENT>
+    </TEST_CASE>
+  </TEST_CASES>
+
+  <HARNESS_PATH>Convert Shutdown Furnace to Heater State Enum-harness.vi</HARNESS_PATH>
+
+  <VI_UNDER_TEST_PATH>..\..\..\Libraries\Thermal Chamber Controller_DQMH\Convert Shutdown Furnace to Heater State Enum.vi</VI_UNDER_TEST_PATH>
+
+</TEST_SUITE>
