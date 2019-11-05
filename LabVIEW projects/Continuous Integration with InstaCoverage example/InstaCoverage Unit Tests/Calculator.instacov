@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TEST_SUITE ICovVersion="2.2.0.1" id="Calculator.instacov">
+
+  <TEST_CASES>
+    <TEST_CASE id="Add">
+      <COMMENT>Test comment</COMMENT>
+      <REQUIREMENT>Test requirement</REQUIREMENT>
+    </TEST_CASE>
+    <TEST_CASE id="Subtract">
+      <COMMENT>Test comment</COMMENT>
+      <REQUIREMENT>Test requirement</REQUIREMENT>
+    </TEST_CASE>
+    <TEST_CASE id="Multiply">
+      <COMMENT></COMMENT>
+      <REQUIREMENT></REQUIREMENT>
+    </TEST_CASE>
+  </TEST_CASES>
+
+  <HARNESS_PATH>Calculator-test_harness.vi</HARNESS_PATH>
+
+  <VI_UNDER_TEST_PATH>..\Calculator.vi</VI_UNDER_TEST_PATH>
+
+</TEST_SUITE>
