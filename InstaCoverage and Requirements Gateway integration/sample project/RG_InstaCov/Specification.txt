@@ -1,0 +1,22 @@
+This is the specification for an example of InstaCoverage and NI Requirements Gateway working together.
+
+<<
+Specification for "BASIC FUNCTIONS"
+* Add, subtract, multiply and divide two numbers
+* Do not allow dividing by zero
+>>
+
+1. Functional Requirements
+1.1 Add
+ADD_REQ1: Add numbers
+1.1.1 Add
+ADD_REQ2: Add more than two numbers 
+1.2 Subtract
+SUB_REQ1: Subtract numbers
+1.3 Multiply
+MUL_REQ1: Multiply numbers
+1.4 Divide
+DIV_REQ1: Divide numbers
+2. Error Checking
+2.1 Divide by zero
+DIV_REQ2: Divide by zero

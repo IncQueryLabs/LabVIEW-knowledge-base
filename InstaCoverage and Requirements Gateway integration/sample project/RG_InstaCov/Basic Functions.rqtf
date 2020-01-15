@@ -1,0 +1,51 @@
+[Files]
+Names=Specification,Implementation,multiply tests,sum tests
+RepositoryTool=Boost
+
+[Specification]
+Cover1=Implementation
+Cover1Position=2480@1320
+Cover1AnnotationPosition=2480@1320
+Cover2=multiply tests,sum tests
+Cover2Position=3700@1270
+Cover2AnnotationPosition=3700@1270
+GraphicPosition=3030@660
+Type=Text
+Path=Specification.txt
+AbsolutePath=C:\Users\danielf\Desktop\RG_InstaCov\Specification.txt
+GVPosition=5760,1500,11720,4860
+
+[Implementation]
+GraphicPosition=1920@1960
+Variable1Name=outputDir
+Variable1Value=C:\\Users\\danielf\\AppData\\Local\\Temp\\nirg73
+Variable2Name=recurseViValues
+Variable2Value=0
+Variable3Name=absoluteFiles
+Variable3Value=C:\\Users\\danielf\\Desktop\\RG_InstaCov\\Sample oop project files
+Variable4Name=recurseDirValues
+Variable4Value=0
+Variable5Name=files
+Variable5Value=Sample oop project files
+Variable6Name=defaultDirectory
+Variable6Value=Sample oop project files
+Type=LabVIEW
+Path=Sample oop project files
+GVPosition=18680,780,26780,2780
+
+[multiply tests]
+GraphicPosition=3615@1960
+Variable1Name=analyzeDiagrams
+Variable1Value=true
+Type=InstaCoverage
+Path=Sample oop project files\tests\Calculator_multiply.instacov
+AbsolutePath=C:\Users\danielf\Desktop\RG_InstaCov\Sample oop project files\tests\Calculator_multiply.instacov
+GVPosition=18640,5100,26740,6760
+
+[sum tests]
+GraphicPosition=4960@1940
+Type=InstaCoverage
+Path=Sample oop project files\tests\Calculator_sum.instacov
+AbsolutePath=C:\Users\danielf\Desktop\RG_InstaCov\Sample oop project files\tests\Calculator_sum.instacov
+GVPosition=18700,7160,26740,8820
+

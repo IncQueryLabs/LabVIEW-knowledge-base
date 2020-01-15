@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TEST_SUITE ICovVersion="3.0.0.1" id="Calculator_sum.instacov">
+
+  <TEST_CASES>
+    <TEST_CASE id="negative and positive">
+      <COMMENT>The result should be 3</COMMENT>
+      <REQUIREMENT>[Covers: ADD_REQ1]</REQUIREMENT>
+    </TEST_CASE>
+    <TEST_CASE id="positive">
+      <COMMENT>The result should be 16</COMMENT>
+      <REQUIREMENT>[Covers: ADD_REQ1]</REQUIREMENT>
+    </TEST_CASE>
+  </TEST_CASES>
+
+  <HARNESS_PATH>Calculator_sum-harness.vi</HARNESS_PATH>
+
+  <VI_UNDER_TEST_PATH>..\sum.vi</VI_UNDER_TEST_PATH>
+
+</TEST_SUITE>

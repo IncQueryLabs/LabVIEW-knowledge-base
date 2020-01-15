@@ -1,0 +1,31 @@
+
+[Types]
+Names=InstaCoverage
+
+[InstaCoverage]
+Tool=Text
+ToolEdit=Text
+Image=InstaCoverage
+ToolPostprocess=MultiWord
+Section1Name=Test File
+Section1Parents=Directory
+Section1Print=$l
+Section1Image=InstaCoverage
+Section1=^BEGIN_FILE: (.+):(.+)$
+Section1End=^END_FILE: .+$
+Section2Name=InstaCase
+Section2Parents=Test File
+Section2Print=$i
+Section2Image=InstaCoverage
+Section2=<TEST_CASE id="(.*?)">
+Requirement1Name=Requirement
+Requirement1=<TEST_CASE id="(.*?)">
+Requirement1Indexes=3,1,3,0
+Reference1Name=Reference
+Reference1Print=$i
+Reference1=\[Covers[ \t]*:[ \t]*([^\]]*)
+Text1RegularExpression=<COMMENT>(.*?)</COMMENT>
+Text2RegularExpression=<REQUIREMENT\b[^>]*>(.*?)</REQUIREMENT>
+FileExtension=instacov
+IntermediateFileEncoding=UTF8
+
