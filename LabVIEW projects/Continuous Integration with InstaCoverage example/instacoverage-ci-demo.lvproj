@@ -19,7 +19,7 @@
 			</Item>
 		</Item>
 		<Item Name="Calculator.vi" Type="VI" URL="../Calculator.vi"/>
-		<Item Name="Control 1.ctl" Type="VI" URL="../Control 1.ctl"/>
+		<Item Name="Operation_control.ctl" Type="VI" URL="../Operation_control.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
